@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
-            // Optionally, update the UI with the new entry
         })
         .catch(error => {
             console.error('Error:', error);

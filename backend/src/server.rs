@@ -10,7 +10,7 @@ async fn add_income_entry(entry: web::Json<IncomeEntry>) -> impl Responder {
     let mut data = IncomeData::load_from_file("data.json").unwrap_or_default();
     data.add_entry(entry.into_inner());
     data.save_to_file("data.json").unwrap();
-    HttpResponse::Ok().json(data) // Respond with the updated data
+    HttpResponse::Ok().json(data) 
 }
 
 pub async fn start_server() -> std::io::Result<()> {
