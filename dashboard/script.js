@@ -54,4 +54,26 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error:', error);
         });
     });
+
+    const removeBtn = document.getElementById('remove-transaction-btn');
+    removeBtn.addEventListener('click', () => {
+        fetch('http://127.0.0.1:8080/income', {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Transactions removed:', data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+
+    const settingsBtn = document.getElementById('settings-btn');
+    settingsBtn.addEventListener('click', () => {
+        alert('Settings button clicked!');
+    });
 });

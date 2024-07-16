@@ -9,10 +9,15 @@ body {
 /* Container styles */
 .container {
     display: flex;
-    justify-content: center; /* Center content horizontally */
+    justify-content: space-between; /* Align items with space between */
     align-items: flex-start; /* Align items to the top */
     height: 100vh; /* Full viewport height */
     padding: 20px;
+}
+
+/* Top right settings button */
+.top-right {
+    margin-top: 10px; /* Adjust margin for spacing from the edge */
 }
 
 /* Form container */
