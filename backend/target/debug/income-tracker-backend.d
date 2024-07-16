@@ -1,1 +1,1 @@
-C:\Users\slipe\Desktop\income\ tracker\backend\target\debug\income-tracker-backend.exe: C:\Users\slipe\Desktop\income\ tracker\backend\src\main.rs
+C:\Users\slipe\Desktop\income\ tracker\backend\target\debug\income-tracker-backend.exe: C:\Users\slipe\Desktop\income\ tracker\backend\src\json_handler.rs C:\Users\slipe\Desktop\income\ tracker\backend\src\main.rs C:\Users\slipe\Desktop\income\ tracker\backend\src\server.rs

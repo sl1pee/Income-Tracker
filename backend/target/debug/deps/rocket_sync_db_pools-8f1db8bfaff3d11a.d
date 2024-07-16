@@ -1,9 +1,0 @@
-C:\Users\slipe\Desktop\income tracker\backend\target\debug\deps\librocket_sync_db_pools-8f1db8bfaff3d11a.rmeta: C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\lib.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\poolable.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\config.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\error.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\connection.rs
-
-C:\Users\slipe\Desktop\income tracker\backend\target\debug\deps\rocket_sync_db_pools-8f1db8bfaff3d11a.d: C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\lib.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\poolable.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\config.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\error.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\connection.rs
-
-C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\lib.rs:
-C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\poolable.rs:
-C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\config.rs:
-C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\error.rs:
-C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rocket_sync_db_pools-0.1.0\src\connection.rs:
