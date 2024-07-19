@@ -23,11 +23,6 @@
                     <div class="form-group">
                         <label for="source">Source:</label>
                         <select id="source" name="source" required>
-                            <option value="Work">Work</option>
-                            <option value="ICBC">ICBC</option>
-                            <option value="Investments">Investments</option>
-                            <option value="Other">Other</option>
-                            <option value="Government">Government</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -36,25 +31,41 @@
                     </div>
                     <button type="submit">Add Transaction</button>
                 </form>
-                <button id="remove-transaction-btn">Remove Transaction</button>
-                <button id="settings-btn">Settings</button>
+                <button id="remove-transaction">Remove Transaction</button>
+            </div>
+            <div id="settings">
+                <h2>Settings</h2>
+                <div class="form-group">
+                    <label for="dark-mode-toggle">Dark Mode:</label>
+                    <input type="checkbox" id="dark-mode-toggle">
+                </div>
+                <div class="form-group">
+                    <label for="add-source">Add Source:</label>
+                    <input type="text" id="new-source" placeholder="New Source">
+                    <button id="add-source-button">Add</button>
+                </div>
+                <div class="form-group">
+                    <label for="remove-source">Remove Source:</label>
+                    <select id="remove-source">
+                    </select>
+                    <button id="remove-source-button">Remove</button>
+                </div>
             </div>
         </div>
         <div class="center-column">
-            <!-- Transaction data display -->
             <div id="income-data">
                 <h2>Transaction Data</h2>
                 <table>
                     <thead>
                         <tr>
-                            <th>Date</th>
-                            <th>Amount</th>
                             <th>Source</th>
+                            <th>Amount</th>
+                            <th>Date</th>
                             <th>Notes</th>
                         </tr>
                     </thead>
-                    <tbody id="income-table-body">
-                        <!-- Transaction rows will be dynamically added here -->
+                    <tbody>
+                        <!-- Transaction rows will be dynamically added -->
                     </tbody>
                 </table>
             </div>

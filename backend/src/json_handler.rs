@@ -1,12 +1,13 @@
 use serde::{Deserialize, Serialize};
-use std::fs::File;
-use std::io::{self, BufReader};
+use std::fs::{File, OpenOptions};
+use std::io::{self, BufReader, BufWriter};
 
 #[derive(Serialize, Deserialize, Debug, Default)]
 pub struct IncomeEntry {
     pub source: String,
     pub amount: f64,
-    pub date: String, // Use a proper date type in a real application
+    pub date: String, 
+    pub notes: Option<String>, 
 }
 
 #[derive(Serialize, Deserialize, Debug, Default)]
@@ -23,8 +24,12 @@ impl IncomeData {
     }
 
     pub fn save_to_file(&self, filename: &str) -> io::Result<()> {
-        let file = File::create(filename)?;
-        serde_json::to_writer_pretty(file, &self)?;
+        let file = OpenOptions::new()
+            .write(true)
+            .truncate(true)
+            .open(filename)?;
+        let writer = BufWriter::new(file);
+        serde_json::to_writer_pretty(writer, &self)?;
         Ok(())
     }
 
