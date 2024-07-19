@@ -1,0 +1,10 @@
+C:\Users\slipe\Desktop\income tracker\backend\target\debug\deps\libactix_cors-c2bacaed1f2c5071.rmeta: C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\lib.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\all_or_some.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\builder.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\error.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\inner.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\middleware.rs
+
+C:\Users\slipe\Desktop\income tracker\backend\target\debug\deps\actix_cors-c2bacaed1f2c5071.d: C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\lib.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\all_or_some.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\builder.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\error.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\inner.rs C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\middleware.rs
+
+C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\lib.rs:
+C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\all_or_some.rs:
+C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\builder.rs:
+C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\error.rs:
+C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\inner.rs:
+C:\Users\slipe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-cors-0.7.0\src\middleware.rs:
